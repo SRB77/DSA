@@ -2,14 +2,37 @@
 
 let prompt = require('prompt-sync')();
 
-//? Break and contine
+
+//* Break and Continue. 
+//! Therory : - 
+// ? so both break and continue are used to control the flow of execution of the loop.
+//! Break : - 
+//?The break statement is used to terminate the loop immediately when a certain condition is met.
+//! Continue : - 
+//? The continue statement is used to skip the current iteration of the loop and move on to the next iteration.
+
+//> Code Example : -
 // let n = 10 ;
-// for (let i = 0 ; i < n ; i++){
-//     if(i === 6) {
-        // continue / break  //> Both Break and Continue has work on loop break used for breaking loop when it meets the condition loop breaks there and continue just skip that condition and continue . 
-//     }
+// for(let i = 0 ; i <=n;i++){
+//     if(i==5) break;
 //     console.log(i);
+//     //ouput : 0 1 2 3 4
+// }   
+// for(let i = 0 ; i <=n;i++){
+//     if(i==4) continue;
+//     console.log(i);
+//     //ouput : 0 1 2 3 5 6 7 8 9 10
 // }
+
+
+//* While Loop : -
+//? Therory : -
+//? The while loop is a control flow statement in programming that allows you to repeatedly execute a block of code as long as a certain condition is true.
+//? The syntax of the while loop is as follows:
+//? while (condition) {
+//?     // code to be executed
+//? }
+
 
 //? While Loop Examples
 
