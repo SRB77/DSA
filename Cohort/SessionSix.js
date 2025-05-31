@@ -1,5 +1,41 @@
-//* Class 6 Learning and Example .
+//* Class 6 Learning and Example  DO WHILE.
 let prompt = require("prompt-sync")();
+
+//* DO WHILE :
+//> Syntax :
+
+// let num = 5;
+// do {
+//   console.log("Hello");
+//   num++
+// } while (num < 10);
+
+//>Reapeat the code until the condition is true.
+
+// let userInput ;
+// do{
+//     console.log(`Hello Duniya`);
+//     userInput = prompt(`Do you want to continue : `);
+// }while(userInput.toLowerCase() === "yes")
+
+//> Guess the Number Game :
+
+// let randomNumber = Math.floor(Math.random() * 100) + 1;
+// let userGuess;
+// do{
+//     userGuess = Number(prompt(`Guess the number between 1 to 100 : `));
+//     if(isNaN(userGuess) || userGuess < 1 || userGuess > 100){
+//         console.log(`Please Enter a Valid Number`);
+//         continue;
+//     }
+//     if(userGuess > randomNumber){
+//         console.log(`Too High`);
+//     }else if(userGuess < randomNumber){
+//         console.log(`Too Low`);
+//     }else{
+//         console.log(`Congratulations!🥳 You guessed the correct number.`);
+//     }
+// }while(userGuess !== randomNumber);
 
 
 
