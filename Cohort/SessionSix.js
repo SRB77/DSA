@@ -38,6 +38,26 @@ let prompt = require("prompt-sync")();
 // }while(userGuess !== randomNumber);
 
 
+//> Guess the Number Game :
+
+/* This game is about that computer will generate some random number and we will guess it .  */
+
+let randomNumber = Math.floor(Math.random() * 100) + 1;
+let userGuess;
+do {
+    userGuess = Number(prompt(`Enter number from 1 to 100 : `));
+    if(isNaN(userGuess) || userGuess<1 || userGuess>100){
+        console.log(`Please Enter a Valid Number`);
+        continue;
+    }
+    if(userGuess > randomNumber){
+        console.log(`Too High`)
+    }else if(userGuess < randomNumber){
+        console.log(`Too Low`);
+    }else{
+        console.log(`Congratulations!🥳 You guessed the correct number.`);
+    }
+}while(userGuess !== randomNumber);
 
 //* ASSIGNMENTS :
 // ? Question 1
