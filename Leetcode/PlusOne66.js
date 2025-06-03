@@ -48,3 +48,19 @@ var plusOne = function(digits) {
 };
 
 */
+
+//* Exact SOLUTION IN PYTHON :
+/* class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        digit = ''.join(str(num) for num in digits)
+        digit = int(digit)+1
+        result = [int(ch) for ch in str(digits)]
+        return result 
+
+*/
+
+
+//* Areas of Improvement:
+//?  i should use less numnber of Built In function and also stay bit in Question and if gettign any kind of Error then i should debug my self rather going to AI immideately . 
+
+//? i am lacking behind in python concepts and syntax as well . So have to take a look and practice some basic python Question . 
